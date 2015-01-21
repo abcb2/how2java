@@ -9,7 +9,7 @@ public class App4 {
 	public static void main(String[] args){
 		App4 app = new App4();
 		String[] lists = {"taro","jiro","saburo","jiro"};
-		Set<User> users = new HashSet<>(); 
+		Set<User> users = new HashSet<User>(); 
 		for(String name : lists){
 			User user = app.new User(name);
 			users.add(user);

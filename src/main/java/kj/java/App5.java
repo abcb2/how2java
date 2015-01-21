@@ -7,7 +7,7 @@ public class App5 {
 
 	public static void main(String[] args) {
 		App5 app = new App5();
-		List<User> users = new ArrayList<>();
+		List<User> users = new ArrayList<User>();
 		users.add(app.new User(3, "sabu"));
 		users.add(app.new User(5, "goro"));
 		users.add(app.new User(1, "ichiro"));
